@@ -5,7 +5,7 @@ import './NavSection.css'
 const NavSection = () => {
     return (
         <>
-            <Nav className='bg-black '>
+            <Nav className='bg-black'>
                 <Container>
                     <Row className='mx-auto d-none d-md-block '>
                         <div className='col-sm-12 col-md-12 col-lg-10 col-xl-10 col-xxl-10 mx-auto flex justify-content-lg-evenly '>
