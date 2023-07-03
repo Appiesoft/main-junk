@@ -83,6 +83,7 @@ const MenuSection = () => {
                     </ul>
                 </Container>
             </Nav>
+            <Nav className='bg_mobile_color'>
             <div className="container navlinks_bg_color d-block d-md-none">
                 <div className="row text-end py-4 ">
                     <div className="col-8 d-flex justify-content-center">
@@ -131,8 +132,8 @@ const MenuSection = () => {
                     </Container>
                 </Offcanvas.Body>
             </Offcanvas>
-
-            <section className=' bg-black py-md-4 pt-3'>
+            </Nav>
+            <section className='bg-black py-md-4 pt-3 px-5'>
                 <Carousel
                     className='pt-3 pt-md-0'
                     infinite={true}
@@ -140,11 +141,13 @@ const MenuSection = () => {
                 >
                     {images.map((importImg, index) => {
                         return (
-                            <div className="row py-5">
-                                <div class="col-11 mx-auto d-flex justify-content-evenly flex-wrap">
+                            <div className="row py-5 mx-auto">
+                                <div class="col-12 mx-auto d-flex justify-content-evenly flex-wrap">
+                               
                                     <img key={index} src={importImg.url} className='img_bg_hover  object-cover object-center' alt={`Image ${index}`} />
+
                                 </div>
-                                <div className="col-11 mx-auto text-white py-3 mb-3 mb-md-0 mb-lg-0 bottom_text">
+                                <div className="col-12 mx-auto text-white py-3 mb-3 mb-md-0 mb-lg-0 bottom_text">
                                     {importImg.altText}
                                 </div>
                             </div>

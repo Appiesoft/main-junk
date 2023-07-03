@@ -15,7 +15,8 @@ const FoodItems = () => {
         fooditemone, fooditemtwo, fooditemthree, fooditemfour, fooditemfive, fooditemsix, fooditemseven, fooditemeight
     ];
     return (
-        <div>
+        <>
+         <div>
             <Row className='bg-black mx-auto'>
                 <Col lg={12} className="text-center py-5" id='text_color_items'>
                     FOLLOW US ON THE GRAM.
@@ -47,6 +48,8 @@ const FoodItems = () => {
             </Row>
             <Signup />
         </div>
+        </>
+      
     )
 }
 export default FoodItems
