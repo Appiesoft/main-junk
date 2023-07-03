@@ -23,7 +23,7 @@ const FoodItems = () => {
             </Row>
             <Row className='bg-black mx-auto d-none d-md-block pb-5'>
                 <Col lg={12} className='mx-auto px-5 pb-5'>
-                    <div class="flex flex-wrap mx-auto ">
+                    <div class="flex flex-wrap">
                         {imageUrls.map((importImg, index) => {
                             return (
                                 <div class="lg:w-1/4 sm:w-1/2 p-3 flex">
