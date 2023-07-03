@@ -68,7 +68,7 @@ p:hover {
     }
 
     .bg_mobile_color {
-        background-color: #f04e30;
+        background-color: #f04e30 !important;
         padding: 30px 0px;
     }
 

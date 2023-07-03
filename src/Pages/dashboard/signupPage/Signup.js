@@ -19,7 +19,7 @@ const Signup = () => {
                                 <label class="form-label text-white email_text mb-0 ">E-MAIL ADDRESS*</label>
                                 <input type="email" class="form-control p-lg-2 p-md-2 p-2 rounded-0 border-1" />
                             </div>
-                            <div class="col-md-4 col-12 col-xs-5 col-sm-6 d-flex justify-content-start justify-content-sm-center
+                            <div class="col-md-4 col-lg-3 col-12 col-xs-5 col-sm-6 d-flex justify-content-start justify-content-sm-center
                              mx-auto align-self-end text-md-center mt-4 mt-sm-0 pt-2 mt-md-0 ms-xxl-3 ">
                                 <button type="button" class="btn signup_btn border-0 text-black ms-sm-2"
                                 >SIGN UP</button>
