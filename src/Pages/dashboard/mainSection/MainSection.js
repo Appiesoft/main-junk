@@ -1,28 +1,13 @@
 import React from 'react'
 import { Row, Col, Container } from 'react-bootstrap';
 import './MainSection.css'
-import mainimage from '../../../assets/pageOne/mainimage.png'
-import mainimages from '../../../assets/pageOne/mainimages.png'
+// import mainimage from '../../../assets/pageOne/mainimage.png'
+// import mainimages from '../../../assets/pageOne/mainimages.png'
 import FoodItems from '../foodItemsSection/FoodItems';
 
 const MainSection = () => {
     return (
         <div>
-            {/* <section className='position-relative d-none d-xs-block d-sm-block d-md-block d-lg-block d-xl-block d-xxl-block ' >
-                <img src={mainimage} alt="mainimage " />
-                <Container>
-                    <Row className='mx-auto'>
-                        <Col lg={4} className="mx-auto position-absolute top-0 top_content d-flex justify-content-evenly align-items-center pt-4">
-                            <h6 className='content_one text-center'>
-                                SIPPY DOWNS
-                            </h6>
-                            <h6 className='content_two text-center ms-5'>
-                                MAROOCHYDORE
-                            </h6>
-                        </Col>
-                    </Row>
-                </Container>
-            </section> */}
             <section className='d-none d-xs-none d-sm-block d-md-block d-lg-block d-xl-block d-xxl-block bg_image' >
                 <Container>
                     <Row className='mx-auto pt-sm-4 pt-xxl-3'>
@@ -51,22 +36,6 @@ const MainSection = () => {
                     </Row>
                 </Container>
             </section>
-
-            {/* <section className='position-relative d-block d-xs-none d-sm-none d-md-none d-lg-none d-xl-done d-xxl-none'>
-                <img src={mainimages} alt="mainimages" />
-                <Container>
-                    <Row className='mx-auto'>
-                        <Col lg={12} className="mx-auto position-absolute top-0 top_content align-items-center pt-4">
-                            <h6 className='content_one text-center '>
-                                SIPPY DOWNS
-                            </h6>
-                            <h6 className='content_two text-center pt-2'>
-                                MAROOCHYDORE
-                            </h6>
-                        </Col>
-                    </Row>
-                </Container>
-            </section> */}
             <FoodItems />
         </div>
     )

@@ -1,0 +1,41 @@
+.btn_gift{
+    background-color: #f7ea2f;
+    color: #000;
+border-radius: 16px;
+    padding: 14px 25px 14px 25px;
+    font-family: "Muli", Sans-serif;
+    font-size: 15px;
+    font-weight: 900;
+    border: none !important;
+    text-transform: uppercase;
+}
+.border_bg{
+    border: 2px solid #f7ea2f; 
+}
+.gift_para{
+    color: #f7ea2f;
+    font-size: 18px;
+    font-weight: 500;
+}
+.gift_title{
+    color: #f7ea2f;
+    font-size: 34px;
+    font-weight: 800;
+    font-family: 'Anek Bangla',Helvetica,Arial,Lucida,sans-serif;
+}
+
+.form-label{
+    color: #f7ea2f !important;
+    font-size: 15px;
+    font-weight: 700;
+}
+.form-control{
+    border:2px solid  #f7ea2f ;
+    border-radius: 4px;
+    padding: 0.375rem 0.75rem;
+}
+.form-select{
+    border:2px solid  #f7ea2f ;
+    border-radius: 4px;
+    padding: 0.375rem 0.75rem;
+}

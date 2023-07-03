@@ -1,11 +1,10 @@
 import { Container, Nav } from 'react-bootstrap';
 import { Link } from "react-router-dom";
-import MainSection from '../dashboard/mainSection/MainSection';
+// import MainSection from '../dashboard/mainSection/MainSection';
 import junk from '../../assets/pageOne/junk.png'
 import { useState } from 'react';
 import { Offcanvas } from 'react-bootstrap';
 import './NavLinks.css'
-import { padding } from '@mui/system';
 const NavLinks = () => {
     const [show, setShow] = useState(false);
     const handleClose = () => setShow(false);
@@ -24,7 +23,7 @@ const NavLinks = () => {
     return (
         <>
             {/* desktop view  */}
-            <Nav className='navlinks_bg_color py-md-4 ' id='bg_color'>
+            <Nav className='navlinks_bg_color py-md-3 py-lg-4 ' id='bg_color'>
                 <Container className='py-2 d-none d-md-block'>
                     <ul className='text-center'>
                         <Link to='/menu' id='links_text_color' className='pe-3'>MENU</Link>
@@ -44,8 +43,8 @@ const NavLinks = () => {
                                 <Link> <p className='py-2 px-3 text-start mb-2'>SIPPY DOWN</p> </Link>
                             </div>
                         </div>
-                        <Link id='links_text_color' className='pe-3'>GIFT CARDS</Link>
-                        <Link id='links_text_color' className='pe-3'>CONTACT</Link>
+                        <Link to='/giftcards' id='links_text_color' className='pe-3'>GIFT CARDS</Link>
+                        <Link to='/contact' id='links_text_color' className='pe-3'>CONTACT</Link>
                     </ul>
                 </Container>
             </Nav>
@@ -94,10 +93,10 @@ const NavLinks = () => {
                                     )}
                                 </div>
                                 <div className='pb-3'>
-                                    <Link id='links_text_color' className='pe-3'>GIFT CARDS</Link>
+                                <Link to='/giftcards' id='links_text_color' className='pe-3'>GIFT CARDS</Link>
                                 </div>
                                 <div>
-                                    <Link id='links_text_color' className='pe-3'>CONTACT</Link>
+                                    <Link to='/contact' id='links_text_color' className='pe-3'>CONTACT</Link>
                                 </div>
                             </ul>
                         </Container>
@@ -105,7 +104,7 @@ const NavLinks = () => {
                 </Offcanvas>
             </Nav>
 
-            <MainSection />
+            {/* <MainSection /> */}
         </>
     )
 }
