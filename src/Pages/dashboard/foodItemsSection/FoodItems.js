@@ -16,7 +16,7 @@ const FoodItems = () => {
     ];
     return (
         <>
-         <div>
+         <div className='bg-black'>
             <Row className='bg-black mx-auto'>
                 <Col lg={12} className="text-center py-5" id='text_color_items'>
                     FOLLOW US ON THE GRAM.

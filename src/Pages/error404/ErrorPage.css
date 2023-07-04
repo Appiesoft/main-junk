@@ -1,0 +1,29 @@
+.error_title{
+    font-family: 'Anek Bangla',Helvetica,Arial,Lucida,sans-serif;
+    text-transform: uppercase;
+    font-size: 58px;
+    color: #f7ea2f!important;
+    text-shadow: 0em 0.1em 0.1em rgba(0,0,0,0.4);
+}
+.error_button{
+    font-family: 'Anek Bangla',Helvetica,Arial,Lucida,sans-serif!important;
+    font-weight: 700!important;
+    font-size: 20px;
+    color: #f7ea2f!important;
+    border: 2px solid  #f7ea2f;
+}
+.error_bg_height{
+background-color:  #f04e30;;
+    height: 700px;
+    padding-top: 222px;
+    border-bottom: 2px solid #f7ea2f;
+}
+
+.error_button:hover{
+    border: 2px solid  #f7ea2f;
+    background-color: #f04e30 !important;
+}
+.error_button:active{
+    border: 2px solid  #f7ea2f !important;
+    background-color: #f04e30 !important;
+}

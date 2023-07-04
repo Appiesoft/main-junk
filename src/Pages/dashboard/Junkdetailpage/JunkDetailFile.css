@@ -1,0 +1,21 @@
+.detail_title{
+    font-size: 34px;
+    color: #f7ea2f;
+    font-family: 'Anek Bangla',Helvetica,Arial,Lucida,sans-serif;
+    font-weight: 500;
+}
+.detail_btn{
+    font-weight: 700;
+    font-size: 33px;
+    color: #000;
+}
+
+.detail_btn div {
+    background-color: #FFC600;
+}
+.bg_details{
+    height: 770px;
+    border-top: 2px solid  #FFC600;
+    border-bottom: 2px solid  #FFC600;
+    background-color: #f04e30;
+}

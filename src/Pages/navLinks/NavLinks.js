@@ -44,6 +44,8 @@ const NavLinks = () => {
                             </div>
                         </div>
                         <Link to='/giftcards' id='links_text_color' className='pe-3'>GIFT CARDS</Link>
+                        <Link to='/details' id='links_text_color' className='pe-3'>JUNK OF DETAIL ITEMS</Link>
+                        <Link to='/chefs-of-junk' id='links_text_color' className='pe-3'>CHEF OF JUNK</Link>
                         <Link to='/contact' id='links_text_color' className='pe-3'>CONTACT</Link>
                     </ul>
                 </Container>
@@ -94,6 +96,9 @@ const NavLinks = () => {
                                 </div>
                                 <div className='pb-3'>
                                 <Link to='/giftcards' id='links_text_color' className='pe-3'>GIFT CARDS</Link>
+                                </div>
+                                <div className='pb-3'>
+                                <Link to='/details' id='links_text_color' className='pe-3'>JUNK OF DETAIL ITEMS</Link>
                                 </div>
                                 <div>
                                     <Link to='/contact' id='links_text_color' className='pe-3'>CONTACT</Link>

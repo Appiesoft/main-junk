@@ -14,6 +14,7 @@ import Offcanvas from 'react-bootstrap/Offcanvas';
 import junk from '../../../assets/pageOne/junk.png'
 import './MenuSection.css'
 import junkfooter from '../../../assets/pageOne/junkfooter.png'
+import NavLinks from '../NavLinks';
 
 const MenuSection = () => {
     const [show, setShow] = useState(false);
@@ -58,7 +59,7 @@ const MenuSection = () => {
     return (
         <div>
             <NavSection />
-            <Nav className='navlinks_bg_color py-4 d-none d-md-block'>
+            {/* <Nav className='navlinks_bg_color py-4 d-none d-md-block'>
                 <Container className='py-2'>
                     <ul className='text-center'>
                         <Link to='/menu' id='links_text_color' className='pe-3'>MENU</Link>
@@ -132,7 +133,8 @@ const MenuSection = () => {
                     </Container>
                 </Offcanvas.Body>
             </Offcanvas>
-            </Nav>
+            </Nav> */}
+            <NavLinks/>
             <section className='bg-black py-md-4 pt-3 px-5'>
                 <Carousel
                     className='pt-3 pt-md-0'
