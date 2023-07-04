@@ -8,6 +8,7 @@
     background-size: cover;
     background-repeat: no-repeat;
     min-height: 760px;
+    border-bottom: 2px solid #f7ea2f;
 }
 
 .content_one {

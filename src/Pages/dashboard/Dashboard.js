@@ -23,7 +23,6 @@ const Dashboard = () => {
          <NavSection />
        <NavLinks />
        <MainSection/>
-       <FoodItems/>
        <Footer />
       
        </>
@@ -32,7 +31,6 @@ const Dashboard = () => {
           <NavSection />
         <NavLinks />
         <MainSection/>
-       <FoodItems/>
         <Footer />
         </>
       

@@ -1,0 +1,44 @@
+.bg_image_chef{
+    background-image: url('../../../assets/pageOne/chefjunkmain.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.cheft_title{
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 56px;
+    color: #f04e30!important;
+
+}
+.cheft_para{
+    text-shadow: 0px 4px 4px rgba(0,0,0,0.25);
+    font-weight: 600;
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    font-size: 20px;
+}
+#bg_color {
+    border-bottom: none;
+}
+.chef_btn_menu{
+    width: 250px;
+    background: #F04E30;
+    text-align: center;
+    list-style: none;
+    padding: 10px;
+    margin: 10px 0px;
+    font-size: 26px;
+    color: #f7ea2f;
+}
+
+.course_para{
+    color: #f04e30!important;
+    font-weight: 600;
+    font-size: 20px;
+}
+.course_title{
+    font-size: 20px;
+    color: #FFFFFF!important;
+
+}
