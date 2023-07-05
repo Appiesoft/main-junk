@@ -19,3 +19,13 @@
     border-bottom: 2px solid  #FFC600;
     background-color: #f04e30;
 }
+
+@media (min-width :0px) and (max-width: 767px) {
+    .detail_btn {
+        font-size: 18px !important;
+    }
+    .bg_details{
+        height: 730px;
+    }
+    
+}

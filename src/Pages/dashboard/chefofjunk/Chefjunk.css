@@ -31,6 +31,10 @@
     font-size: 26px;
     color: #f7ea2f;
 }
+.chef_btn_menu:hover{
+    background: #F04E30 !important; 
+    color: #f7ea2f;
+}
 
 .course_para{
     color: #f04e30!important;

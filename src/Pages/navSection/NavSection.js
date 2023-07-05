@@ -2,6 +2,7 @@ import React from 'react'
 import { Container, Row, Col } from 'react-bootstrap';
 import Nav from 'react-bootstrap/Nav';
 import './NavSection.css'
+import { Link } from 'react-router-dom';
 const NavSection = () => {
     return (
         <>
@@ -12,7 +13,7 @@ const NavSection = () => {
                             <Col sm={12} md={7} lg={7} xl={7} xxl={7} className="text-lg-end text-xl-end  text-xxl-end    ms-xxl-5 me-xxl-4 align-self-center padding_upper_nav">
                                 <span className='top_text '>BOOK NOW FOR CHEFS OF JUNKS: AN ASIAN ADVENTURE</span>    </Col>
                             <Col md={5} lg={5} xl={4} xxl={5} className="text-lg-start text-xl-start text-xxl-start align-items-center padding_upper_nav me-xl-4 me-xxl-5 pe-xxl-5">
-                                <button className='top_nav_button  rounded-2 ms-lg-2 ms-xxl-0'>BOOK FOR CURATED PLATE</button>
+                               <Link to='/chefs-of-junk'> <button className='top_nav_button  rounded-2 ms-lg-2 ms-xxl-0'>BOOK FOR CURATED PLATE</button></Link>
                             </Col>
                         </div>
 
@@ -22,7 +23,9 @@ const NavSection = () => {
                             <h6 className='top_text '>BOOK NOW FOR CHEFS OF JUNK : AN ASIAN ADVENTURE</h6>
                         </Col>
                         <Col sm={12} className='d-md-block text-center mt-3'>
-                            <button className='top_nav_button rounded-2'>BOOK FOR CURATED PLATE</button>
+                           <Link to='/chefs-of-junk'>
+                           <button className='top_nav_button rounded-2'>BOOK FOR CURATED PLATE</button>
+                    </Link>
                         </Col>
                     </Row>
                     <Row className="mx-auto d-flex  d-block d-sm-none d-lg-none d-md-none p-4 justify-content-evenly align-items-center padding_upper_nav">
@@ -30,7 +33,7 @@ const NavSection = () => {
                             <h6 className='top_text '>BOOK NOW FOR CHEFS OF JUNK </h6>
                         </Col>
                         <Col sm={12} className='d-md-block text-center mt-3'>
-                            <button className='top_nav_button rounded-2'>BOOK FOR CURATED PLATE</button>
+                        <Link to='/chefs-of-junk'> <button className='top_nav_button rounded-2'>BOOK FOR CURATED PLATE</button></Link> 
                         </Col>
                     </Row>
                 </Container>

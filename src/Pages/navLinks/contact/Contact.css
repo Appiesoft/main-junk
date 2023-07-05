@@ -1,4 +1,4 @@
-.btn_gift{
+/* .btn_gift{
     background-color: #f7ea2f;
     color: #000;
 border-radius: 16px;
@@ -60,4 +60,8 @@ border-radius: 16px;
     .gift_title{
         font-size: 24px;
     } 
-}
+} */
+
+.podio-webform-frame body {
+    background-color: #000 !important;
+  }

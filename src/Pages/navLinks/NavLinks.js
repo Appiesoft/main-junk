@@ -26,27 +26,36 @@ const NavLinks = () => {
             <Nav className='navlinks_bg_color py-md-3 py-lg-4 ' id='bg_color'>
                 <Container className='py-2 d-none d-md-block'>
                     <ul className='text-center'>
-                        <Link to='/menu' id='links_text_color' className='pe-3'>MENU</Link>
-                        <Link >
+                        <Link to='https://xzkc27.p3cdn1.secureserver.net/wp-content/uploads/2023/05/FINAL-JUNK-Main-Menu-May-2023_compressed.pdf' id='links_text_color' className='pe-3'>MENU</Link>
+                        {/* <Link >
                             <div class="dropdown pe-3">
-                                <Link > <span id='links_text_color'>BOOK A TABLE<i class="fa fa-angle-down ps-2" style={{ fontSize: "18px" }}></i></span>  </Link>
+                                <Link > <span id='links_text_color'><i class="fa fa-angle-down ps-2" style={{ fontSize: "18px" }}></i></span>  </Link>
                                 <div class="dropdown-content">
-                                    <Link > <p className='my-2 py-2 px-4 text-start'>BOOK MAROOCHY</p>  </Link>
-                                    <Link >  <p className='py-2 px-4 mb-2 text-start'>BOOK SIPPY</p>   </Link>
+                                  <Link to=''>
+                                  <p className='my-2 py-2 px-4 text-start'></p> 
+                                  </Link> 
+                                    <p className='py-2 px-4 mb-2 text-start'>BOOK SIPPY</p>  
                                 </div>
                             </div>
-                        </Link>
+                        </Link> */}
+                        <div class="dropdown pe-3">
+                            <Link> <span id='links_text_color'>BOOK A TABLE<i class="fa fa-angle-down ps-2" style={{ fontSize: "18px" }}></i></span></Link>
+                            <div class="dropdown-content">
+                                <Link to='https://bookings.nowbookit.com/?accountid=bba36415-c7ae-477e-b528-aef9e8cade75&venueid=1752&theme=dark&colors=hex,dd2c00,ffd600&font=Oxygen'> <p className='my-2 py-2 px-3 text-start' >BOOK MAROOCHY</p></Link>
+                                <Link to='https://bookings.nowbookit.com/?accountid=bba36415-c7ae-477e-b528-aef9e8cade75&venueid=8580&theme=dark&colors=hex,dd2c00,ffd600&font=Oxygen'> <p className='py-2 px-3 text-start mb-2'>BOOK SIPPY</p> </Link>
+                            </div>
+                        </div>
                         <div class="dropdown pe-3">
                             <Link> <span id='links_text_color'>ORDER TAKEAWAY<i class="fa fa-angle-down ps-2" style={{ fontSize: "18px" }}></i></span></Link>
                             <div class="dropdown-content">
-                                <Link> <p className='my-2 py-2 px-3 text-start' >MAROOCHYDORE</p></Link>
-                                <Link> <p className='py-2 px-3 text-start mb-2'>SIPPY DOWN</p> </Link>
+                                <Link to='https://junk.bitebusiness.com/'> <p className='my-2 py-2 px-3 text-start' >MAROOCHYDORE</p></Link>
+                                <Link to='https://junk.bitebusiness.com/'> <p className='py-2 px-3 text-start mb-2'>SIPPY DOWN</p> </Link>
                             </div>
                         </div>
-                        <Link to='/giftcards' id='links_text_color' className='pe-3'>GIFT CARDS</Link>
-                        <Link to='/details' id='links_text_color' className='pe-3'>JUNK OF DETAIL ITEMS</Link>
-                        <Link to='/chefs-of-junk' id='links_text_color' className='pe-3'>CHEF OF JUNK</Link>
-                        <Link to='/contact' id='links_text_color' className='pe-3'>CONTACT</Link>
+                        <Link to='https://app.gift-it.com.au/buy/junk-sunshine-coast?' id='links_text_color' className='pe-3'>GIFT CARDS</Link>
+                        {/* <Link to='/details' id='links_text_color' className='pe-3'>JUNK OF DETAIL ITEMS</Link> */}
+                        {/* <Link to='/chefs-of-junk' id='links_text_color' className='pe-3'>CHEF OF JUNK</Link> */}
+                        <Link to='contact' id='links_text_color' className='pe-3'>CONTACT</Link>
                     </ul>
                 </Container>
             </Nav>
@@ -73,15 +82,15 @@ const NavLinks = () => {
                             </div>
                             <ul className='text-center py-2 position-relative nav_links_center'>
                                 <div className='pb-3'>
-                                    <Link to='/menu' id='links_text_color' className='pe-3'>MENU</Link>
+                                    <Link to='https://xzkc27.p3cdn1.secureserver.net/wp-content/uploads/2023/05/FINAL-JUNK-Main-Menu-May-2023_compressed.pdf' id='links_text_color' className='pe-3'>MENU</Link>
                                 </div>
                                 <div className='pb-2'>
                                     <button id='links_text_color' className='pb-3' onClick={handleToggle}>BOOK A TABLE <i class={` ${!isOpen ? "fa-solid fa-caret-down ms-2" : "fa-solid fa-caret-up ms-2"}`}></i>
                                     </button>
                                     {isOpen && (
                                         <div className="offcanvasS position-relative inner_links">
-                                            <p className='px-4 text-center pb-3' >BOOK MAROOCHY</p>
-                                            <p className=' px-4 text-center'  >BOOK SIPPY</p>
+                                        <Link to='https://bookings.nowbookit.com/?accountid=bba36415-c7ae-477e-b528-aef9e8cade75&venueid=1752&theme=dark&colors=hex,dd2c00,ffd600&font=Oxygen'> <p className='px-3 text-center' >BOOK MAROOCHY</p></Link>
+                                        <Link to='https://bookings.nowbookit.com/?accountid=bba36415-c7ae-477e-b528-aef9e8cade75&venueid=8580&theme=dark&colors=hex,dd2c00,ffd600&font=Oxygen'>    <p className=' px-3 text-center'  >BOOK SIPPY</p></Link>
                                         </div>
                                     )}
                                 </div>
@@ -89,17 +98,17 @@ const NavLinks = () => {
                                     <button id='links_text_color' className='pb-3' onClick={handleToggletwo}>ORDER TAKEAWAY <i class={` ${!isOpentwo ? "fa-solid fa-caret-down ms-2" : "fa-solid fa-caret-up ms-2"}`}></i></button>
                                     {isOpentwo && (
                                         <div className="offcanvasS position-relative inner_links">
-                                            <p className='px-4 text-center pb-3'  >MAROOCHYDORE</p>
-                                            <p className=' px-4 text-center' >SIPPY DOWN</p>
+                                        <Link to='https://junk.bitebusiness.com/'> <p className='px-3 text-center'  >MAROOCHYDORE</p> </Link>
+                                        <Link to='https://junk.bitebusiness.com/'>    <p className=' px-3 text-center' >SIPPY DOWN</p></Link>
                                         </div>
                                     )}
                                 </div>
                                 <div className='pb-3'>
-                                <Link to='/giftcards' id='links_text_color' className='pe-3'>GIFT CARDS</Link>
+                                <Link to='https://app.gift-it.com.au/buy/junk-sunshine-coast?' id='links_text_color' className='pe-3'>GIFT CARDS</Link>
                                 </div>
-                                <div className='pb-3'>
+                                {/* <div className='pb-3'>
                                 <Link to='/details' id='links_text_color' className='pe-3'>JUNK OF DETAIL ITEMS</Link>
-                                </div>
+                                </div> */}
                                 <div>
                                     <Link to='/contact' id='links_text_color' className='pe-3'>CONTACT</Link>
                                 </div>

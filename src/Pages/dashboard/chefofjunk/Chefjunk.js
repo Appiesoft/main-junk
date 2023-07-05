@@ -8,6 +8,7 @@ import FoodItems from "../foodItemsSection/FoodItems";
 import Footer from "../../footer/Footer";
 import "./Chefjunk.css";
 import Bodyimage from '../../../assets/pageOne/Bodyimage.jpg'
+import { Link } from "react-router-dom";
 const Chefjunk = () => {
   return (
     <div className="bg-black">
@@ -58,10 +59,10 @@ const Chefjunk = () => {
                 <img src={Bodyimage} />
                 </Col>
                 <Col lg={6} xl={6} xxl={6} className="align-self-center ms-lg-5 my-md-4 my-4 my-sm-4 my-lg-0 my-xxl-0 my-xl-0">
-                <p className="course_para text-center text-lg-start">$79 for 4 courses
+                <div className="course_para text-center text-lg-start">$79 for 4 courses
                 <br/>
                 Sunday 6th August    <br/>
-                11:30 AM – 2:30 PM</p> 
+                11:30 AM – 2:30 PM</div> 
                 <h6 className="course_title mt-md-2 mt-sm-2 mt-2">JUNK MAROOCHYDORE</h6>
 
                 </Col>
@@ -70,10 +71,14 @@ const Chefjunk = () => {
              <Row className="my-5 mx-auto">
               <Col md={12} lg={12} xl={12} xxl={12} sm={6} xs={6} className="d-flex justify-content-md-center  justify-content-center flex-xs-wrap flex-wrap flex-md-nowrap mx-auto">
               <Col lg={6} xl={6} xxl={6} className="text-md-end text-sm-center">
+              <Link to="https://xzkc27.p3cdn1.secureserver.net/wp-content/uploads/2023/05/Curated-Plate-Menu-.pdf">
              <Button className="chef_btn_menu border-0 rounded-0">SEE MENU</Button>
+             </Link>
                 </Col>
                 <Col lg={6} xl={6} xxl={6} className="ms-md-5 text-sm-center text-md-start">
+                <Link to="https://thecuratedplate.com.au/event/17827837-a/chefs-of-junk-an-asian-adventure">
                 <Button className="chef_btn_menu border-0 rounded-0">BOOK MENU</Button>
+                </Link>
                 </Col>
               </Col>
              </Row>

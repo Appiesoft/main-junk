@@ -59,7 +59,7 @@ p:hover {
 
 @media (min-width:0px) and (max-width: 767px) {
     .img-fluid {
-        max-width: 141%;
+        max-width: 90%;
         height: auto;
     }
 
@@ -100,7 +100,7 @@ p:hover {
 
     .bar_size1 {
         color: #F7EA2F !important;
-        font-size: 31px !important;
+        font-size: 28px !important;
     }
 
     .bg_height {

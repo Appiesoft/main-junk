@@ -4,6 +4,7 @@ import './MainSection.css'
 // import mainimage from '../../../assets/pageOne/mainimage.png'
 // import mainimages from '../../../assets/pageOne/mainimages.png'
 import FoodItems from '../foodItemsSection/FoodItems';
+import { Link } from 'react-router-dom';
 
 const MainSection = () => {
     return (
@@ -13,10 +14,14 @@ const MainSection = () => {
                     <Row className='mx-auto pt-sm-4 pt-xxl-3'>
                         <Col xl={5} md={7} lg={7} xxl={4} className="mx-auto top_content d-lg-flex justify-content-lg-evenly align-items-center">
                             <h6 className='content_one  text-sm-center text-end me-lg-3 pel-g-2'>
-                                SIPPY DOWNS
+                               <Link  to='https://junksunshinecoast.com.au/junk-sippy-downs/'>
+                               SIPPY DOWNS
+                               </Link> 
                             </h6>
                             <h6 className='content_one text-sm-center  my-sm-3 text-start ms-lg-4'>
-                                MAROOCHYDORE
+                            <Link to='https://junksunshinecoast.com.au/junk-sippy-downs/'>
+                            MAROOCHYDORE
+                            </Link>
                             </h6>
                         </Col>
                     </Row>

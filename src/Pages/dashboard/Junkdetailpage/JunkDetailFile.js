@@ -13,20 +13,20 @@ const JunkDetailFile = () => {
       <section className="bg_details">
         <Container>
           <Row >
-            <Col lg={8} className="mx-auto">
+            <Col sm={10} md={10} lg={10} xl={10} xxl={9} className="mx-auto">
               <Row>
                 <Col lg={12} className="mx-auto py-5">
                   <h1 className="detail_title text-center">
                     Junk – Asian Fusion Food
                   </h1>
                 </Col>
-                <Col lg={12} className="detail_btn  text-center mx-auto">
-                  <div className=" my-4 py-2 ">Book a table</div>
-                  <div className=" py-2">Order Online</div>
-                  <div className="my-4 py-2">Menu</div>
-                  <div className=" py-2">Gift Vouchers</div>
-                  <div className="my-4 py-2">Sign up page For Newsletter</div>
-                  <div className="py-2">View our Website</div>
+                <Col lg={12}  sm={10} xs={9}  md={12}  xl={12} className="detail_btn  text-center mx-auto">
+                  <div className=" my-4 py-3 py-md-2 py-sm-3 ">Book a table</div>
+                  <div className=" py-2 py-3 py-sm-3">Order Online</div>
+                  <div className="my-4  py-3 py-md-2 py-sm-3">Menu</div>
+                  <div className=" py-md-2 py-3 py-sm-3">Gift Vouchers</div>
+                  <div className="my-4 py-3 py-md-2 py-sm-3">Sign up For Newsletter</div>
+                  <div className="py-md-2 py-3 py-sm-3">View our Website</div>
                 </Col>
               </Row>
             </Col>
