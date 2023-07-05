@@ -14,7 +14,7 @@ const ErrorPage = () => {
        <NavSection />
       <NavLinks />
       
-      <section className='error_bg_height  '>
+      <section className='error_bg_height'>
         <Row className='d-flex justify-content-center'>
             <Col lg={12} className='text-center p-5'>
               <h1 className='error_title'>404 NOT FOUND</h1>

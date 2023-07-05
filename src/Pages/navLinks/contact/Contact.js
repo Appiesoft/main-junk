@@ -10,7 +10,7 @@ const Contact = () => {
     <div>
       <NavSection />
       <NavLinks />
-      <div
+      {/* <div
         className="container-fluid bg-black pb-5 pt-4 py-xxl-5 pt-sm-3 pb-sm-5"
         id="bg_color1"
       >
@@ -110,7 +110,8 @@ const Contact = () => {
             </Col>
           </Row>
         </Container>
-      </div>
+      </div> */}
+  
       <FoodItems />
       <Footer />
     </div>
